@@ -1,0 +1,16 @@
+* text=auto
+
+README eol=lf
+*.md eol=lf
+*.toml eol=lf
+*.csv eol=lf
+*.txt eol=lf
+*.ini eol=lf
+
+*.c eol=lf
+*.cc eol=lf
+*.cpp eol=lf
+*.h eol=lf
+*.hh eol=lf
+*.hpp eol=lf
+*.lua eol=lf
