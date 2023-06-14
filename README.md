@@ -15,7 +15,7 @@ git clone https://github.com/Trevader24135/espBoy
 
 3. Install the PlatformIO extension by opening the `extensions` tab on the left menu bar, and searching for `platformio`. Click install.
 
-![PlatformIO Extention installation](images/platformio_installation.png)
+![PlatformIO Extention installation](docs/images/platformio_installation.png)
 
 4. You can now build and upload the project using PlatformIO's tools available in the left menu bar. Ensure that your esp32 device is plugged in, then click "Upload". The project should build and upload to your device.
 
