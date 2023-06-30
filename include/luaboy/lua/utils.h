@@ -4,11 +4,7 @@
 #include <esp_err.h>
 #include <freertos/semphr.h>
 
-extern "C" {
-    #include <lua.h>
-    #include <lualib.h>
-    #include <lauxlib.h>
-}
+#include "luaboy/lua/luaboy.hpp"
 
 #include "luaboy/sys/resources.h"
 #include "luaboy/lua/api.h"

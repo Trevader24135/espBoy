@@ -24,14 +24,14 @@ class DisplayUart : public Display {
         static inline const char* TAG = "DisplayUart";
 
     protected:
-        HardwareSerial* stream;
+        Stream* stream;
 
     public:
         // Note that this is potentially memory unsafe, because if `stream` goes
         // out of scope and is destroyed, this reference will be invalid. A
         // smart man would use a smart pointer (or Rust), but I'm lazy, and PIO
         // doesn't support Rust.
-        DisplayUart(HardwareSerial* stream, size_t width, size_t height):
+        DisplayUart(Stream* stream, size_t width, size_t height):
         stream(stream) {
             this->resize(width, height);
         }

@@ -2,11 +2,7 @@
 
 #include <esp_log.h>
 
-extern "C" {
-    #include <lua.h>
-    #include <lualib.h>
-    #include <lauxlib.h>
-}
+#include "luaboy/lua/luaboy.hpp"
 
 int lua_print(lua_State* L) {
     static const char* TAG = "lua_print";
